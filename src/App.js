@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import { getMatches } from "./api/Api";
 import { Fragment, useEffect, useState } from 'react';
 import MyCard from './components/MyCard';
+
 function App() {
   const [matches,setMatches] = useState([]);
 
